@@ -1,0 +1,917 @@
+{
+  "algo": "DQN",
+  "condition": "C1",
+  "tag": "",
+  "model_path": "./models/dqn_c1/dqn_c1_final",
+  "n_episodes": 100,
+  "seed": 42,
+  "success_rate_pct": 98.0,
+  "collision_rate": 0.02,
+  "avg_steps": 1972.1,
+  "avg_lap_steps": 1982.7,
+  "avg_reward": 9201.77,
+  "avg_lane_deviation": 0.0866,
+  "total_time_s": 2088.1,
+  "episodes": [
+    {
+      "episode": 0,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9318.084,
+      "lane_deviation": 0.0849,
+      "episode_time_s": 20.78
+    },
+    {
+      "episode": 1,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9677.759,
+      "lane_deviation": 0.0645,
+      "episode_time_s": 20.87
+    },
+    {
+      "episode": 2,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9756.307,
+      "lane_deviation": 0.0593,
+      "episode_time_s": 21.28
+    },
+    {
+      "episode": 3,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9511.526,
+      "lane_deviation": 0.0782,
+      "episode_time_s": 21.57
+    },
+    {
+      "episode": 4,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9092.79,
+      "lane_deviation": 0.0972,
+      "episode_time_s": 21.46
+    },
+    {
+      "episode": 5,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8636.582,
+      "lane_deviation": 0.136,
+      "episode_time_s": 21.51
+    },
+    {
+      "episode": 6,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9473.088,
+      "lane_deviation": 0.0815,
+      "episode_time_s": 21.52
+    },
+    {
+      "episode": 7,
+      "success": false,
+      "collision": true,
+      "steps": 1451,
+      "total_reward": 6494.989,
+      "lane_deviation": 0.0903,
+      "episode_time_s": 19.59
+    },
+    {
+      "episode": 8,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8705.758,
+      "lane_deviation": 0.1302,
+      "episode_time_s": 21.06
+    },
+    {
+      "episode": 9,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9732.148,
+      "lane_deviation": 0.0626,
+      "episode_time_s": 34.97
+    },
+    {
+      "episode": 10,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9314.023,
+      "lane_deviation": 0.0855,
+      "episode_time_s": 21.22
+    },
+    {
+      "episode": 11,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9631.923,
+      "lane_deviation": 0.0674,
+      "episode_time_s": 21.37
+    },
+    {
+      "episode": 12,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9794.123,
+      "lane_deviation": 0.0572,
+      "episode_time_s": 21.2
+    },
+    {
+      "episode": 13,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9119.641,
+      "lane_deviation": 0.0976,
+      "episode_time_s": 21.25
+    },
+    {
+      "episode": 14,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9284.669,
+      "lane_deviation": 0.0894,
+      "episode_time_s": 21.36
+    },
+    {
+      "episode": 15,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9313.286,
+      "lane_deviation": 0.0873,
+      "episode_time_s": 21.27
+    },
+    {
+      "episode": 16,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9320.811,
+      "lane_deviation": 0.088,
+      "episode_time_s": 21.29
+    },
+    {
+      "episode": 17,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9332.623,
+      "lane_deviation": 0.0893,
+      "episode_time_s": 21.39
+    },
+    {
+      "episode": 18,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8320.514,
+      "lane_deviation": 0.1522,
+      "episode_time_s": 21.22
+    },
+    {
+      "episode": 19,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9469.384,
+      "lane_deviation": 0.0839,
+      "episode_time_s": 21.32
+    },
+    {
+      "episode": 20,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9416.544,
+      "lane_deviation": 0.0821,
+      "episode_time_s": 21.05
+    },
+    {
+      "episode": 21,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9363.563,
+      "lane_deviation": 0.0836,
+      "episode_time_s": 21.22
+    },
+    {
+      "episode": 22,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9061.046,
+      "lane_deviation": 0.0984,
+      "episode_time_s": 20.56
+    },
+    {
+      "episode": 23,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9471.74,
+      "lane_deviation": 0.0796,
+      "episode_time_s": 20.9
+    },
+    {
+      "episode": 24,
+      "success": true,
+      "collision": false,
+      "steps": 304,
+      "total_reward": 1151.893,
+      "lane_deviation": 0.1254,
+      "episode_time_s": 3.13
+    },
+    {
+      "episode": 25,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9401.381,
+      "lane_deviation": 0.0767,
+      "episode_time_s": 20.88
+    },
+    {
+      "episode": 26,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9403.344,
+      "lane_deviation": 0.0842,
+      "episode_time_s": 20.79
+    },
+    {
+      "episode": 27,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8743.192,
+      "lane_deviation": 0.1273,
+      "episode_time_s": 20.93
+    },
+    {
+      "episode": 28,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9393.816,
+      "lane_deviation": 0.0803,
+      "episode_time_s": 21.0
+    },
+    {
+      "episode": 29,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9103.49,
+      "lane_deviation": 0.1053,
+      "episode_time_s": 20.83
+    },
+    {
+      "episode": 30,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8648.445,
+      "lane_deviation": 0.1374,
+      "episode_time_s": 20.74
+    },
+    {
+      "episode": 31,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9045.814,
+      "lane_deviation": 0.1014,
+      "episode_time_s": 20.84
+    },
+    {
+      "episode": 32,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8962.712,
+      "lane_deviation": 0.1036,
+      "episode_time_s": 20.7
+    },
+    {
+      "episode": 33,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9660.738,
+      "lane_deviation": 0.0628,
+      "episode_time_s": 20.76
+    },
+    {
+      "episode": 34,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9804.146,
+      "lane_deviation": 0.0547,
+      "episode_time_s": 20.8
+    },
+    {
+      "episode": 35,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9879.47,
+      "lane_deviation": 0.0537,
+      "episode_time_s": 20.59
+    },
+    {
+      "episode": 36,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8962.608,
+      "lane_deviation": 0.1021,
+      "episode_time_s": 20.92
+    },
+    {
+      "episode": 37,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9424.826,
+      "lane_deviation": 0.0845,
+      "episode_time_s": 20.8
+    },
+    {
+      "episode": 38,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9872.172,
+      "lane_deviation": 0.0563,
+      "episode_time_s": 20.93
+    },
+    {
+      "episode": 39,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9434.516,
+      "lane_deviation": 0.0868,
+      "episode_time_s": 20.77
+    },
+    {
+      "episode": 40,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9071.885,
+      "lane_deviation": 0.0934,
+      "episode_time_s": 21.16
+    },
+    {
+      "episode": 41,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9302.733,
+      "lane_deviation": 0.0885,
+      "episode_time_s": 20.8
+    },
+    {
+      "episode": 42,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9224.208,
+      "lane_deviation": 0.0904,
+      "episode_time_s": 20.93
+    },
+    {
+      "episode": 43,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9288.86,
+      "lane_deviation": 0.0797,
+      "episode_time_s": 21.08
+    },
+    {
+      "episode": 44,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9465.065,
+      "lane_deviation": 0.0774,
+      "episode_time_s": 21.01
+    },
+    {
+      "episode": 45,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8737.265,
+      "lane_deviation": 0.1302,
+      "episode_time_s": 20.97
+    },
+    {
+      "episode": 46,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9403.034,
+      "lane_deviation": 0.0826,
+      "episode_time_s": 20.98
+    },
+    {
+      "episode": 47,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8828.449,
+      "lane_deviation": 0.1213,
+      "episode_time_s": 20.94
+    },
+    {
+      "episode": 48,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9382.042,
+      "lane_deviation": 0.0837,
+      "episode_time_s": 20.97
+    },
+    {
+      "episode": 49,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9349.866,
+      "lane_deviation": 0.0864,
+      "episode_time_s": 21.03
+    },
+    {
+      "episode": 50,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9140.492,
+      "lane_deviation": 0.0844,
+      "episode_time_s": 20.78
+    },
+    {
+      "episode": 51,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9663.146,
+      "lane_deviation": 0.064,
+      "episode_time_s": 20.57
+    },
+    {
+      "episode": 52,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9743.48,
+      "lane_deviation": 0.0558,
+      "episode_time_s": 20.98
+    },
+    {
+      "episode": 53,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9733.613,
+      "lane_deviation": 0.0611,
+      "episode_time_s": 21.07
+    },
+    {
+      "episode": 54,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8235.342,
+      "lane_deviation": 0.1467,
+      "episode_time_s": 20.97
+    },
+    {
+      "episode": 55,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9714.853,
+      "lane_deviation": 0.0555,
+      "episode_time_s": 20.92
+    },
+    {
+      "episode": 56,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8960.304,
+      "lane_deviation": 0.103,
+      "episode_time_s": 20.62
+    },
+    {
+      "episode": 57,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9068.195,
+      "lane_deviation": 0.0995,
+      "episode_time_s": 20.79
+    },
+    {
+      "episode": 58,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9344.836,
+      "lane_deviation": 0.0853,
+      "episode_time_s": 21.01
+    },
+    {
+      "episode": 59,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9449.778,
+      "lane_deviation": 0.083,
+      "episode_time_s": 20.69
+    },
+    {
+      "episode": 60,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9320.593,
+      "lane_deviation": 0.0874,
+      "episode_time_s": 20.99
+    },
+    {
+      "episode": 61,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9422.88,
+      "lane_deviation": 0.0805,
+      "episode_time_s": 20.85
+    },
+    {
+      "episode": 62,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9805.056,
+      "lane_deviation": 0.0533,
+      "episode_time_s": 20.88
+    },
+    {
+      "episode": 63,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9318.968,
+      "lane_deviation": 0.0877,
+      "episode_time_s": 20.94
+    },
+    {
+      "episode": 64,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9280.406,
+      "lane_deviation": 0.0925,
+      "episode_time_s": 21.11
+    },
+    {
+      "episode": 65,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8698.409,
+      "lane_deviation": 0.1284,
+      "episode_time_s": 20.91
+    },
+    {
+      "episode": 66,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8406.615,
+      "lane_deviation": 0.1468,
+      "episode_time_s": 21.11
+    },
+    {
+      "episode": 67,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9510.336,
+      "lane_deviation": 0.0731,
+      "episode_time_s": 21.01
+    },
+    {
+      "episode": 68,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9377.746,
+      "lane_deviation": 0.0894,
+      "episode_time_s": 20.92
+    },
+    {
+      "episode": 69,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9656.224,
+      "lane_deviation": 0.0604,
+      "episode_time_s": 21.1
+    },
+    {
+      "episode": 70,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9562.239,
+      "lane_deviation": 0.0686,
+      "episode_time_s": 20.91
+    },
+    {
+      "episode": 71,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9346.371,
+      "lane_deviation": 0.085,
+      "episode_time_s": 20.92
+    },
+    {
+      "episode": 72,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9280.463,
+      "lane_deviation": 0.0965,
+      "episode_time_s": 20.67
+    },
+    {
+      "episode": 73,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9731.452,
+      "lane_deviation": 0.0612,
+      "episode_time_s": 20.84
+    },
+    {
+      "episode": 74,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9887.341,
+      "lane_deviation": 0.0528,
+      "episode_time_s": 20.81
+    },
+    {
+      "episode": 75,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9678.332,
+      "lane_deviation": 0.0659,
+      "episode_time_s": 20.93
+    },
+    {
+      "episode": 76,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9836.307,
+      "lane_deviation": 0.0543,
+      "episode_time_s": 21.06
+    },
+    {
+      "episode": 77,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9240.606,
+      "lane_deviation": 0.0925,
+      "episode_time_s": 20.86
+    },
+    {
+      "episode": 78,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9336.04,
+      "lane_deviation": 0.0866,
+      "episode_time_s": 20.9
+    },
+    {
+      "episode": 79,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9290.046,
+      "lane_deviation": 0.096,
+      "episode_time_s": 20.68
+    },
+    {
+      "episode": 80,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9714.045,
+      "lane_deviation": 0.0606,
+      "episode_time_s": 20.87
+    },
+    {
+      "episode": 81,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9545.446,
+      "lane_deviation": 0.0782,
+      "episode_time_s": 20.81
+    },
+    {
+      "episode": 82,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9329.806,
+      "lane_deviation": 0.0855,
+      "episode_time_s": 21.02
+    },
+    {
+      "episode": 83,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9442.893,
+      "lane_deviation": 0.0805,
+      "episode_time_s": 20.98
+    },
+    {
+      "episode": 84,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9306.907,
+      "lane_deviation": 0.0926,
+      "episode_time_s": 20.84
+    },
+    {
+      "episode": 85,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9541.431,
+      "lane_deviation": 0.0755,
+      "episode_time_s": 20.84
+    },
+    {
+      "episode": 86,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9698.235,
+      "lane_deviation": 0.0664,
+      "episode_time_s": 20.91
+    },
+    {
+      "episode": 87,
+      "success": false,
+      "collision": true,
+      "steps": 1455,
+      "total_reward": 6344.793,
+      "lane_deviation": 0.1078,
+      "episode_time_s": 15.31
+    },
+    {
+      "episode": 88,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9795.026,
+      "lane_deviation": 0.0583,
+      "episode_time_s": 20.97
+    },
+    {
+      "episode": 89,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8737.025,
+      "lane_deviation": 0.1289,
+      "episode_time_s": 21.08
+    },
+    {
+      "episode": 90,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9287.39,
+      "lane_deviation": 0.092,
+      "episode_time_s": 20.92
+    },
+    {
+      "episode": 91,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9826.719,
+      "lane_deviation": 0.0579,
+      "episode_time_s": 21.08
+    },
+    {
+      "episode": 92,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9663.465,
+      "lane_deviation": 0.0689,
+      "episode_time_s": 20.89
+    },
+    {
+      "episode": 93,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 8640.037,
+      "lane_deviation": 0.1397,
+      "episode_time_s": 20.95
+    },
+    {
+      "episode": 94,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9729.248,
+      "lane_deviation": 0.0601,
+      "episode_time_s": 20.93
+    },
+    {
+      "episode": 95,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9534.386,
+      "lane_deviation": 0.0753,
+      "episode_time_s": 21.1
+    },
+    {
+      "episode": 96,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9347.726,
+      "lane_deviation": 0.0842,
+      "episode_time_s": 20.8
+    },
+    {
+      "episode": 97,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9431.298,
+      "lane_deviation": 0.0777,
+      "episode_time_s": 21.11
+    },
+    {
+      "episode": 98,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9348.33,
+      "lane_deviation": 0.0871,
+      "episode_time_s": 20.72
+    },
+    {
+      "episode": 99,
+      "success": true,
+      "collision": false,
+      "steps": 2000,
+      "total_reward": 9313.5,
+      "lane_deviation": 0.0862,
+      "episode_time_s": 20.87
+    }
+  ]
+}
